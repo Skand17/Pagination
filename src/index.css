@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pagination-wrapper {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+
+.pagination-wrapper ul > li.active {
+  background: red;
+}
+
+
+.pagination-wrapper ul > li {
+  background: #000000;
+  color: #ffffff;
+  padding: 9px;
+  margin: 0 7px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.pagination-wrapper > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding: 11px;
+  justify-content: space-evenly;
+}
